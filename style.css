@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    box-shadow: #100000 5px 10px 20px;
+    background-color: #100000 ;      
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    margin: 8% auto;
+}
+
+.template{
+    height: 200px;
+    width: 200px;
+    margin: 12% auto;
+    border: 1px none;
+}
+
+.container-2{
+    margin-top: -6%;
+    margin-left: 16%;
+}
+
+body{
+    background-color:#452322;  
+    color:white;
+    font-family: 'Lato', sans-serif;
+}
+
+
+h6{
+    font-weight: lighter;
+    opacity: 0.55;
+}
+
+img{
+ width: 200px;
+}
+
