@@ -5,15 +5,15 @@
 }
 
 .container{
-    box-shadow: #100000 5px 10px 20px;
-    background-color: #100000 ;      
+    box-shadow: #100000 12px 10px 12px;  
     border: 1px solid black;
-    height: 400px;
+    height: 450px;
     width: 300px;
     margin: 8% auto;
 }
 
 .template{
+    border-style: black;
     height: 200px;
     width: 200px;
     margin: 12% auto;
@@ -25,12 +25,26 @@
     margin-left: 16%;
 }
 
+
+#icons{
+    display: flex;
+    margin-top: 6%;
+    margin-left: 13%;
+    color: #100000;
+}
+
+input[type=range]{
+    padding: 0%;
+    width: 80%;
+    margin-top: 8px;
+    margin-left: 38px;
+}
+
 body{
-    background-color:#452322;  
+    background-color:#452322;   
     color:white;
     font-family: 'Lato', sans-serif;
 }
-
 
 h6{
     font-weight: lighter;
@@ -38,7 +52,30 @@ h6{
 }
 
 img{
- background-image: url ('https://i.scdn.co/image/ab67616d0000b27366127aa6c868a01e97f62d64');
  width: 200px;
 }
 
+ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li i{
+    color: #000000;
+    margin-left: 15px;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+i{
+    color:black;
+    opacity: 0.8;
+    font-size: 50px;
+}
+
+i:hover{
+    cursor: pointer;
+}
